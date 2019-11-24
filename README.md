@@ -81,3 +81,5 @@ Note: the Ansible Vault executable is embedded in this image. To use it, specify
 docker run --rm -it -v $(pwd):/ansible/playbooks --entrypoint ansible-vault \
   walokra/ansible-playbook encrypt FILENAME
 ```
+##20191124
+使用 --addhost 命令更新 /etc/hosts 文件，运行正常。
